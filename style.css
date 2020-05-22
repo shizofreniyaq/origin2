@@ -510,11 +510,3 @@ p {
 	
 }
 
-content: "\e7c3";
-	display: block;
-	width: 24px;
-	color: black;
-	height: 15px;
-	position: relative;
-	margin: auto;
-	cursor: pointer;
