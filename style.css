@@ -476,28 +476,45 @@ p {
 	overflow:auto;
 }
 
-.icon-dashboard2 ::before {
+.icon-dashboard2:before {
 	content: "\e61f";
+	position: relative;
+	display: block;
+	font-family: 'icomoon';
+	color:#cccccc;
+	cursor: pointer;
 	margin-top: 75px;
 	margin-left: 20px;
-	font-family: 'icomoon';
-	color:#cccccc;
-	margin-top: 30px;
-	margin-left: 30px;
 }
 
-.icon-credit-card4 ::before {
+.icon-credit-card4:before {
 	content: "\e61e";
+	position: relative;
+	display: block;
+	font-family: 'icomoon';
+	color:#cccccc;
+	cursor: pointer;
 	margin-top: 130px;
 	margin-left: 20px;
-	font-family: 'icomoon';
-	color:#cccccc;
 }
 
-.icon-group2 ::before {
+.icon-group2:before {
 	content: "\e8d8";
-	margin-top: 190px;
-	margin-left: 20px;
+	position: relative;
+	display: block;
 	font-family: 'icomoon';
 	color:#cccccc;
+	cursor:pointer;
+	margin-top:160px;
+	margin-left: 20px;
+	
 }
+
+content: "\e7c3";
+	display: block;
+	width: 24px;
+	color: black;
+	height: 15px;
+	position: relative;
+	margin: auto;
+	cursor: pointer;
