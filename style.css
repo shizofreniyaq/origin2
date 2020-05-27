@@ -480,6 +480,7 @@ p {
 	flex-direction: column;
 	flex-wrap: nowrap;
 	flex-basis: auto auto auto auto;
+	padding-top: 60px;
 }
 
 .icon-dashboard2:before {
@@ -490,11 +491,18 @@ p {
 	color:#cccccc;
 	cursor: pointer;
 	font-style: normal;
-	margin:75px 10px 10px 0;
 	padding: 0 20px;
 	font-size: 20px;
+	margin:0 auto;
 
 
+}
+
+.icon-dashboard:hover {
+	background:#202020;
+	color: #3a3a3a;
+	cursor: pointer;
+	
 }
 
 .icon-credit-card4:before {
@@ -505,9 +513,10 @@ p {
 	color:#cccccc;
 	cursor: pointer;
 	font-style: normal;
-	margin: 130px 50px 20px 0;
 	padding: 0 20px;
 	font-size: 20px;
+	margin:0 auto;
+	
 	
 }
 
@@ -519,24 +528,23 @@ p {
 	color:#cccccc;
 	cursor:pointer;
 	font-style: normal;
-	margin:160px 30px 30px 0;
 	padding: 0 20px;
 	font-size: 20px;
   	display: block;
  	width: 100px;
- 	margin: 20px auto 0;
  	padding: 10px;
   	border: 1px solid black;
   	cursor: pointer;
+  	margin:0 auto;
 }
 
 	.icon-group2__btn:hover {
- 	 color: #fff;
-  	border-color: #fff;
+ 	 color: #3a3a3a;
+  	border-color: #3a3a3a;
 }
 
 	.icon-group2__btn:hover ~ *{
- 	 color: #fff;
+ 	 color: #3a3a3a;
 }
 
 	.icon-group2__btn:hover:after {
@@ -547,10 +555,19 @@ p {
   	left: 0;
   	right: 0;
   	bottom: 0;
-  	background-color: green;
+  	background-color: #202020;
   	pointer-events: none;
   	z-index: -1;
 }
+
+
+.sidebar ul {
+	display: flex;
+	flex-direction: column;
+
+}
+
+
 
 
 
